@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="margin: 2rem;"
+    >
+      <form
+        aria-label="new-todo-form"
+      >
+        <div>
+          <label
+            for="todo"
+          >
+            Todo: 
+          </label>
+          <input
+            aria-label="new-todo-input"
+            id="todo"
+            maxlength="72"
+            minlength="1"
+            name="todo"
+            placeholder="Enter a new todo"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <button>
+          Add Todo
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

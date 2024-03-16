@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; margin: 1rem;"
+  >
+    <div
+      style="margin-right: 1rem;"
+    >
+      NaN. 
+      <span />
+    </div>
+    <div
+      style="color: blue; text-decoration: underline; cursor: pointer; user-select: none; margin-right: 1rem;"
+    >
+      Edit
+    </div>
+    <button
+      style="color: white; background-color: red; cursor: pointer;"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
