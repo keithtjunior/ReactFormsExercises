@@ -27,7 +27,9 @@ exports[`matches snapshot 1`] = `
             value=""
           />
         </div>
-        <button>
+        <button
+          style="margin-top: 10px;"
+        >
           Add Todo
         </button>
       </form>

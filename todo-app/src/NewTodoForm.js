@@ -35,7 +35,7 @@ const NewTodoForm = ({makeTodo}) => {
                         onChange={handleChange}
                     />
                 </div>
-            <button>Add Todo</button>
+            <button style={{marginTop: '10px'}}>Add Todo</button>
             </form>
         </div>
       )
