@@ -17,7 +17,11 @@ const NewBoxForm = ({createBox}) => {
       }
       const handleSubmit = (e) => {
         e.preventDefault();
-        createBox({ ...formData, id:uuid() });
+        createBox({ 
+          ...formData, 
+          color: formData.color.toLowerCase(),
+          id:uuid() 
+        });
         setFormData(INITIAL_STATE)
       }
     
