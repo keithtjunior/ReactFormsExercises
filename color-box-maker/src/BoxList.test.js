@@ -16,9 +16,9 @@ it("can create a new box", function() {
   
     expect(queryByText("X")).not.toBeInTheDocument();
   
-    const nameInput = getByLabelText("Width");
-    const qtyInput = getByLabelText("Height");
-    const colorInput = getByLabelText("Color");
+    const nameInput = getByLabelText("Width:");
+    const qtyInput = getByLabelText("Height:");
+    const colorInput = getByLabelText("Color:");
     const submitBtn = queryByText("Create Box")
   
     // fill out the form

@@ -25,7 +25,7 @@ const NewBoxForm = ({createBox}) => {
         <div style={{margin: '2rem'}}>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="width">Width</label>
+                    <label htmlFor="width">Width: </label>
                     <input
                         id="width"
                         type="number"
@@ -33,12 +33,13 @@ const NewBoxForm = ({createBox}) => {
                         max={1420}
                         name="width"
                         required
+                        style={{marginTop: '10px'}}
                         value={formData.width}
                         onChange={handleChange}
                     />
                 </div>
                 <div>
-                    <label htmlFor="height">Height</label>
+                    <label htmlFor="height">Height: </label>
                     <input
                         id="height"
                         type="number"
@@ -46,12 +47,13 @@ const NewBoxForm = ({createBox}) => {
                         max={1420}
                         name="height"
                         required
+                        style={{marginTop: '10px'}}
                         value={formData.height}
                         onChange={handleChange}
                     />
                 </div>
                 <div>
-                    <label htmlFor="color">Color</label>
+                    <label htmlFor="color">Color: </label>
                     <input
                         id="color"
                         type="text"
@@ -60,11 +62,12 @@ const NewBoxForm = ({createBox}) => {
                         name="color"
                         placeholder="Enter color of box"
                         required
+                        style={{marginTop: '10px'}}
                         value={formData.color}
                         onChange={handleChange}
                     />
                 </div>
-            <button>Create Box</button>
+            <button style={{marginTop: '10px'}}>Create Box</button>
             </form>
         </div>
       )
